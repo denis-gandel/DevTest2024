@@ -1,0 +1,6 @@
+.poll-option-section {
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto 10%;
+  align-items: center;
+}

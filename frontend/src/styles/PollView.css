@@ -1,0 +1,23 @@
+.poll-view-section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.poll-view-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.poll-view-total {
+  width: 100%;
+  text-align: right;
+}

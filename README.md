@@ -38,3 +38,47 @@ The Dev test is designed to find talent, so we encourage you to showcase as many
 - UI development (HTML, CSS, JS, TS); you can also use libraries and frameworks like Vue.js, React.js, Angular, as well as tools like Bootstrap, Material UI, etc., depending on the tech stack you choose for the test.
 - If you’re not familiar with Git, we suggest learning basic commands like cloning projects, adding commits, and uploading code.
 - To practice, implement the backend of a web application. For practice purposes, you can try to replicate the following application: [The Movie DB](https://www.themoviedb.org/)
+
+---
+
+## Requirements
+
+### Backend
+- [PHP](https://www.php.net/downloads.php)
+- [Composer](https://getcomposer.org/download/)
+- [Laravel](https://laravel.com/docs/11.x#creating-a-laravel-project)
+
+### Frontend
+- [Bun](https://bun.sh/)
+
+### Database
+- [PostgreSQL](https://www.postgresql.org/download/)
+
+## Configuration
+
+### Backend
+Enter the backend folder, in the `root` folder you will find a `.env.example` file, copy the same content and paste it in a new `.env` file, and in this one just configure the variables for the connection to the database with `PostgreSQL`.
+
+## Usage
+
+### Clone repository
+
+```bash
+git clone https://github.com/denis-gandel/DevTest2024.git
+cd DevTest2024
+```
+
+### backend
+
+```bash
+cd backend
+php artisan migrate
+php artisan serve
+```
+
+### frontend
+```bash
+cd frontend
+bun install
+bun run dev
+```
