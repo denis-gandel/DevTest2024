@@ -5,3 +5,4 @@ use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
 Route::get('v1/polls', [PollController::class, 'getAll']);
+Route::post('v1/polls', [PollController::class, 'createPoll']);
